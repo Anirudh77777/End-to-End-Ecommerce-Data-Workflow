@@ -129,28 +129,6 @@ To validate the correctness of the project’s codebase, unit testing, integrati
 
 ## Run the Project Locally
 > Ensure you have Docker, Make etc. installed on your system before starting. These dependencies are not included in the instructions below.
-
-To run the project locally, follow these steps:
-1. Clone the Repository
-    ```bash
-    git clone https://github.com/GregoryTomy/Spark-Data-Engineering
-    cd Spark-Data-Engineering
-    ```
-2. Spin up the Infrastructure
-    ```bash
-    make up
-    ```
-3. Generate Data and Create Buckets in MinIO
-    ```bash
-    make setup
-    ```
-4. Run the Project End-to-End
-    ```bash
-    make project
-    ```
-
-For other available commands, refer to the [Makefile](Makefile).
-
 ---
 
 This project was devloped as part of the excellent cource by [Joseph Machado](https://www.startdataengineering.com).
